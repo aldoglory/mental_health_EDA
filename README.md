@@ -236,12 +236,15 @@ print("Cleaned data saved as 'cleaned_mental_health_data.csv'")
 - Pages: Summary, Risk Drill, Region View,
 
 summary age consists of all basic graphs here is a screenshot
-![images](images/summary.png)
+![images](images/summaryy.png)
 
-Risk drill includes risk analysis here is a screenshot
-![images](images/risk.png)
+Risk drill page here is a screenshot
+![images](images/riskdrill.png)
+
+Risk analysis page for analyzing risks here is a screen shot
+![images](images/riskanalysis.png)
 
 Toolit is also present here is a screenhot
-![images](images/toolit.png)
+![images](images/toolpit.png)
 
  
