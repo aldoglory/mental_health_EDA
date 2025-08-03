@@ -185,12 +185,6 @@ df_clean[['Value', 'Risk Level']].head()
 ![images](images/eight.png)
 
 
-saving
-```python
-df_clean.to_csv("cleaned_mental_health_data.csv", index=False)
-print("Cleaned data saved as 'cleaned_mental_health_data.csv'")
-```
-![images](images/ten.png)
 
 Inspect Cluster Characteristics
 
@@ -199,7 +193,7 @@ Inspect Cluster Characteristics
 cluster_summary = df_encoded.groupby('Cluster')['Value'].agg(['mean', 'min', 'max', 'count'])
 print(cluster_summary)
 ```
-![images](images/eight.png)
+![images](images/nine.png)
 
 ```python
 def assign_risk_level(value):
@@ -218,8 +212,36 @@ df_clean['Risk Level'] = df_clean['Value'].apply(assign_risk_level)
 df_clean[['Value', 'Risk Level']].head()
 
 ```
-![images](images/nine.png)
+![images](images/ten.png)
+Risk levels
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
 
+sns.countplot(x='Risk Level', data=df_clean, palette='viridis')
+plt.title('Distribution of Risk Levels')
+plt.show()
+```
+![images](images/eleven.png)
 
+saving cleaned dataset
+
+```python
+df_clean.to_csv("cleaned_mental_health_data.csv", index=False)
+print("Cleaned data saved as 'cleaned_mental_health_data.csv'")
+```
+![images](images/twelve.png)
+
+##POWERBI DASHBOARD
+- Pages: Summary, Risk Drill, Region View,
+
+summary age consists of all basic graphs here is a screenshot
+![images](images/summary.png)
+
+Risk drill includes risk analysis here is a screenshot
+![images](images/risk.png)
+
+Toolit is also present here is a screenhot
+![images](images/toolit.png)
 
  
