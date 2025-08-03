@@ -246,4 +246,5 @@ Risk analysis page for analyzing risks here is a screen shot
 Toolit is also present here is a screenhot
 ![images](images/toolpit.png)
 
- 
+ prepared by: Ruterana Gloire
+ feel free to reach out on my e-mail : ruterana47@gmail.com
