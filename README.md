@@ -1,4 +1,4 @@
-#  Mental Health Trends in the Tech Industry
+#  Mental Health Trends
 
 ## Project Overview
 
@@ -10,9 +10,8 @@ This capstone project investigates mental health trends across various regions, 
 
 - **Name:** `dmhasnsduhmh2018.csv`
 - **Fields:** Age Range, Region, Mental Health Condition, Year, Value
-- **Source:** Provided by course instructors
-- **Format:** Tabular CSV
-
+- **Source:** `https://data.ctdata.org/dataset/mental-health`
+- The dataset contains 864 rows and 7 columns, and it's related to mental health statistics across different regions, years, and age groups.
 ---
 
 ## Methodology
@@ -238,8 +237,8 @@ print("Cleaned data saved as 'cleaned_mental_health_data.csv'")
 summary age consists of all basic graphs here is a screenshot
 ![images](images/summaryy.png)
 
-Risk drill page here is a screenshot
-![images](images/riskdrill.png)
+Region drill page here is a screenshot
+![images](images/regiondrill.png)
 
 Risk analysis page for analyzing risks here is a screen shot
 ![images](images/riskanalysis.png)
